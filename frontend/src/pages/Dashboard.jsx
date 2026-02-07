@@ -89,6 +89,8 @@ const Dashboard = () => {
           price={currentPrice?.price}
           change={currentPrice?.change}
           changePercent={currentPrice?.change_percent}
+          sources={currentPrice?.sources}
+          sourceCount={currentPrice?.source_count}
           loading={loading}
         />
         <SignalCard signal={currentSignal} loading={loading} />
