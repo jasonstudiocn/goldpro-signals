@@ -215,7 +215,7 @@ class GoldDataFetcher:
     def fetch_real_time_price(self) -> Optional[Dict]:
         """从多个来源获取实时黄金价格并聚合"""
         sources = [
-            ('Metals-API', self.fetch_from_metals_api),
+            ('GoldPrice.org API', self.fetch_from_goldprice_org_api),  # 最可靠的源放第一位
             ('GoldPrice.org', self.fetch_from_goldprice_org),
             ('Investing.com', self.fetch_from_investing_com),
             ('BullionVault', self.fetch_from_bullionvault),
@@ -233,10 +233,13 @@ class GoldDataFetcher:
         for source_name, fetch_func in sources:
             try:
                 price = fetch_func()
-                if price and 2000 < price < 3500:
+                if price and 2000 < price < 10000:  # 扩大合理范围以适应未来价格
                     prices.append(price)
                     successful_sources.append(source_name)
                     logger.info(f"成功从 {source_name} 获取金价: ${price}")
+                    # 如果已经成功获取到API数据，可以提前结束
+                    if source_name == 'GoldPrice.org API':
+                        break
             except Exception as e:
                 logger.warning(f"从 {source_name} 获取失败: {e}")
                 continue
@@ -262,8 +265,39 @@ class GoldDataFetcher:
         # 计算平均价格（简单平均，忽略权重）
         avg_price = sum(prices) / len(prices)
         
-        # 计算价格变化（与基准价格比较）
-        base_price = 2650.0  # 基准价格
+        # 从GoldPrice.org API获取实时变化数据
+        try:
+            response = requests.get(
+                "https://data-asg.goldprice.org/dbXRates/USD",
+                headers=self.headers,
+                timeout=self.timeout
+            )
+            if response.status_code == 200:
+                data = response.json()
+                if 'items' in data and len(data['items']) > 0:
+                    item = data['items'][0]
+                    change = item.get('chgXau', 0)
+                    change_percent = item.get('pcXau', 0)
+                    
+                    return {
+                        'price': round(avg_price, 2),
+                        'change': round(float(change), 2),
+                        'change_percent': round(float(change_percent), 3),
+                        'timestamp': datetime.now(timezone.utc).isoformat(),
+                        'currency': 'USD',
+                        'unit': 'ounce',
+                        'sources': successful_sources,
+                        'source_count': len(successful_sources),
+                        'price_range': {
+                            'min': round(min(prices), 2),
+                            'max': round(max(prices), 2)
+                        } if len(prices) > 1 else None
+                    }
+        except:
+            pass
+        
+        # 如果无法获取实时变化，计算估算值
+        base_price = 2650.0
         change = avg_price - base_price
         change_percent = (change / base_price) * 100
         
@@ -279,7 +313,7 @@ class GoldDataFetcher:
             'price_range': {
                 'min': round(min(prices), 2),
                 'max': round(max(prices), 2)
-            }
+            } if len(prices) > 1 else None
         }
     
     def fetch_historical_data(self, days: int = 30) -> list:
