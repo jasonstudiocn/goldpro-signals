@@ -43,6 +43,9 @@ class GoldPrice(BaseModel):
     timestamp: str
     currency: str
     unit: str
+    sources: Optional[List[str]] = []
+    source_count: Optional[int] = 0
+    price_range: Optional[dict] = None
 
 class TechnicalIndicators(BaseModel):
     sma_20: Optional[float] = None
