@@ -2,9 +2,10 @@ import requests
 from bs4 import BeautifulSoup
 import logging
 from typing import Optional, Dict, List
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 import json
 import re
+import random
 
 logger = logging.getLogger(__name__)
 
@@ -80,7 +81,7 @@ class GoldDataFetcher:
             response = requests.get("https://tradingeconomics.com/commodity/gold", headers=self.headers, timeout=self.timeout)
             soup = BeautifulSoup(response.content, 'html.parser')
             
-            element = soup.find('span', {'id': 'p'}) or soup.find('div', {'class': '价格'})
+            element = soup.find('span', {'id': 'p'}) or soup.find('div', {'class': 'price'})
             if element:
                 price_text = element.get_text().strip()
                 price = float(re.sub(r'[^\d.]', '', price_text))
@@ -157,7 +158,6 @@ class GoldDataFetcher:
         # 如果没有成功获取任何价格，返回模拟数据
         if not prices:
             logger.warning("所有数据源均失败，使用模拟数据")
-            import random
             base_price = 2650.0
             variation = random.uniform(-10, 10)
             current_price = base_price + variation
@@ -176,9 +176,10 @@ class GoldDataFetcher:
         # 计算平均价格（简单平均，忽略权重）
         avg_price = sum(prices) / len(prices)
         
-        # 计算价格变化（与第一个价格比较）
-        change = avg_price - prices[0]
-        change_percent = (change / prices[0]) * 100
+        # 计算价格变化（与基准价格比较）
+        base_price = 2650.0  # 基准价格
+        change = avg_price - base_price
+        change_percent = (change / base_price) * 100
         
         return {
             'price': round(avg_price, 2),
@@ -194,73 +195,34 @@ class GoldDataFetcher:
                 'max': round(max(prices), 2)
             }
         }
+    
+    def fetch_historical_data(self, days: int = 30) -> list:
+        """获取历史价格数据（模拟）"""
+        data = []
+        base_price = 2650.0
+        current_time = datetime.now(timezone.utc)
+        
+        for i in range(days):
+            timestamp = current_time - timedelta(days=days-i)
+            variation = random.uniform(-20, 20)
+            price = base_price + variation
             
-    def fetch_real_time_price(self) -> Optional[Dict]:
-        """从多个来源获取实时黄金价格并聚合"""
-        sources = [
-            ('Kitco', self.fetch_from_kitco),
-            ('XE.com', self.fetch_from_xe),
-            ('TradingEconomics', self.fetch_from_tradingeconomics),
-            ('FXStreet', self.fetch_from_fxstreet),
-            ('Capital.com', self.fetch_from_capital),
-            ('Gold-API', self.fetch_from_goldapi),
-        ]
-        
-        prices = []
-        successful_sources = []
-        
-        # 尝试从所有来源获取价格
-        for source_name, fetch_func in sources:
-            try:
-                price = fetch_func()
-                if price and 2000 < price < 3500:
-                    prices.append(price)
-                    successful_sources.append(source_name)
-                    logger.info(f"成功从 {source_name} 获取金价: ${price}")
-            except Exception as e:
-                logger.warning(f"从 {source_name} 获取失败: {e}")
-                continue
-        
-        # 如果没有成功获取任何价格，返回模拟数据
-        if not prices:
-            logger.warning("所有数据源均失败，使用模拟数据")
-            import random
-            base_price = 2650.0
-            variation = random.uniform(-10, 10)
-            current_price = base_price + variation
+            # 生成OHLC数据
+            open_price = price + random.uniform(-5, 5)
+            high = max(open_price, price) + random.uniform(0, 5)
+            low = min(open_price, price) - random.uniform(0, 5)
+            close = price
             
-            return {
-                'price': round(current_price, 2),
-                'change': round(variation, 2),
-                'change_percent': round((variation / base_price) * 100, 3),
-                'timestamp': datetime.now(timezone.utc).isoformat(),
-                'currency': 'USD',
-                'unit': 'ounce',
-                'sources': ['模拟数据'],
-                'source_count': 0
-            }
+            data.append({
+                'timestamp': timestamp.isoformat(),
+                'open': round(open_price, 2),
+                'high': round(high, 2),
+                'low': round(low, 2),
+                'close': round(close, 2),
+                'volume': random.randint(10000, 50000)
+            })
         
-        # 计算平均价格（简单平均，忽略权重）
-        avg_price = sum(prices) / len(prices)
-        
-        # 计算价格变化（与第一个价格比较）
-        change = avg_price - prices[0]
-        change_percent = (change / prices[0]) * 100
-        
-        return {
-            'price': round(avg_price, 2),
-            'change': round(change, 2),
-            'change_percent': round(change_percent, 3),
-            'timestamp': datetime.now(timezone.utc).isoformat(),
-            'currency': 'USD',
-            'unit': 'ounce',
-            'sources': successful_sources,
-            'source_count': len(successful_sources),
-            'price_range': {
-                'min': round(min(prices), 2),
-                'max': round(max(prices), 2)
-            }
-        }
+        return data
     
     def fetch_historical_data(self, days: int = 30) -> list:
         """获取历史价格数据（模拟）"""
