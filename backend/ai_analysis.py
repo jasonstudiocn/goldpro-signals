@@ -109,26 +109,42 @@ class AIAnalyzer:
             prompt = """分析这个黄金K线图，识别：
 1. 图形形态（如头肩顶、双底、三角形等）
 2. 买卖信号（BUY/SELL/HOLD）
-3. 信心度（0-100）
+3. 信心度（0-100的数字）
 4. 简短描述（50字以内）
 
-请以JSON格式回复：{"pattern": "形态名称", "signal": "BUY/SELL/HOLD", "confidence": 数字, "description": "描述"}"""
+直接返回纯JSON格式，不要包含任何其他文字或markdown标记：
+{"pattern": "形态名称", "signal": "BUY或SELL或HOLD", "confidence": 数字0-100, "description": "描述"}"""
             
             response = await chat.send_message(UserMessage(
                 text=prompt,
                 file_contents=[image_content]
             ))
             
+            # 清理响应
+            clean_response = response.strip()
+            if clean_response.startswith('```'):
+                clean_response = clean_response.split('```')[1]
+                if clean_response.startswith('json'):
+                    clean_response = clean_response[4:]
+                clean_response = clean_response.strip()
+            
             import json
             try:
-                result = json.loads(response)
+                result = json.loads(clean_response)
+                if 'pattern' not in result or 'signal' not in result:
+                    return {
+                        'pattern': 'UNKNOWN',
+                        'signal': 'HOLD',
+                        'confidence': 50,
+                        'description': '分析结果格式不完整'
+                    }
                 return result
-            except:
+            except json.JSONDecodeError:
                 return {
                     'pattern': 'UNKNOWN',
                     'signal': 'HOLD',
                     'confidence': 50,
-                    'description': response[:100] if response else '分析完成'
+                    'description': clean_response[:100] if clean_response else '分析完成'
                 }
         
         except Exception as e:
