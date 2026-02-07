@@ -13,6 +13,8 @@ from data_fetcher import GoldDataFetcher
 from technical_analysis import TechnicalAnalyzer
 from ai_analysis import AIAnalyzer
 from signal_evaluator import SignalEvaluator
+from signals_database import signals_db, save_signal_to_db, get_signal_history as get_db_signal_history, get_latest_signal, get_signal_performance
+from historical_db import get_historical_db
 
 ROOT_DIR = Path(__file__).parent
 load_dotenv(ROOT_DIR / '.env')
@@ -106,6 +108,17 @@ class EmailAlert(BaseModel):
     email: EmailStr
     signal_id: str
 
+class KLineBar(BaseModel):
+    timestamp: int
+    open: float
+    high: float
+    low: float
+    close: float
+    volume: Optional[float] = 0
+
+class TechnicalAnalysisRequest(BaseModel):
+    data: List[KLineBar]
+
 class UserSettings(BaseModel):
     model_config = ConfigDict(extra="ignore")
     id: str = Field(default_factory=lambda: str(uuid.uuid4()))
@@ -142,10 +155,10 @@ async def get_price_history(days: int = 30):
 async def get_technical_analysis():
     """获取技术指标分析"""
     historical_data = data_fetcher.fetch_historical_data(60)
-    
+
     analyzer = TechnicalAnalyzer(historical_data)
     indicators = analyzer.get_all_indicators()
-    
+
     indicators_record = {
         **indicators,
         'timestamp': datetime.now(timezone.utc).isoformat()
@@ -153,8 +166,36 @@ async def get_technical_analysis():
     record_copy = indicators_record.copy()
     if db is not None:
         await db.technical_indicators.insert_one(record_copy)
-    
+
     return indicators
+
+@api_router.post("/analysis/technical")
+async def calculate_technical_indicators(request: TechnicalAnalysisRequest):
+    """根据提供的K线数据计算技术指标"""
+    try:
+        data = [
+            {
+                'timestamp': bar.timestamp,
+                'open': float(bar.open),
+                'high': float(bar.high),
+                'low': float(bar.low),
+                'close': float(bar.close),
+                'volume': float(bar.volume) if bar.volume else 0
+            }
+            for bar in request.data
+        ]
+
+        if len(data) < 26:
+            return {"error": f"需要至少26条数据，当前{len(data)}条"}
+
+        analyzer = TechnicalAnalyzer(data)
+        indicators = analyzer.get_all_indicators()
+
+        return indicators
+
+    except Exception as e:
+        logger.error(f"计算技术指标失败: {e}")
+        raise HTTPException(status_code=500, detail=f"计算技术指标失败: {str(e)}")
 
 @api_router.get("/analysis/ai")
 async def get_ai_analysis():
@@ -194,27 +235,112 @@ async def get_current_signal():
     
     # 综合评估
     signal = signal_evaluator.evaluate_signals(technical_indicators, ai_analysis)
-    
+
     # 获取当前价格
     current_price_data = data_fetcher.fetch_real_time_price()
     if current_price_data:
         signal['current_price'] = current_price_data['price']
-    
-    # 保存到数据库
+        signal['price_at_signal'] = current_price_data['price']
+
+    # 保存到MongoDB（如果可用）
     signal_record = TradingSignal(**signal)
     if db is not None:
         await db.trading_signals.insert_one(signal_record.model_dump())
-    
+
+    # 保存到JSON数据库（始终可用）
+    save_signal_to_db(signal)
+
     return signal_record
 
 @api_router.get("/signals/history")
-async def get_signal_history(limit: int = 50):
+async def get_signal_history(limit: int = 50, signal_type: str = None):
     """获取历史交易信号"""
     if db is not None:
         signals = await db.trading_signals.find({}, {"_id": 0}).sort("timestamp", -1).limit(limit).to_list(limit)
     else:
-        signals = []
+        signals = get_db_signal_history(limit, signal_type)
+
+    if signal_type:
+        signals = [s for s in signals if s.get('signal') == signal_type.upper()]
+
     return {"signals": signals, "count": len(signals)}
+
+@api_router.get("/signals/performance")
+async def get_signal_performance_stats(days: int = 30):
+    """获取信号表现统计"""
+    performance = get_signal_performance(days)
+    return performance
+
+@api_router.delete("/signals/history")
+async def clear_signal_history():
+    """清空信号历史"""
+    success = signals_db.clear_history()
+    if success:
+        return {"status": "success", "message": "信号历史已清空"}
+    return {"status": "error", "message": "清空失败"}
+
+@api_router.get("/kline/{period}")
+async def get_kline_data(period: str = 'D1', limit: int = 2000, reverse: bool = True):
+    """获取K线数据（专为KLineChart使用）"""
+    db_hist = get_historical_db()
+
+    period_map = {
+        'M1': 'M1', 'M5': 'M5', 'M15': 'M15', 'M30': 'M30',
+        'D1': 'D1', 'W1': 'W1', 'MN': 'MN', 'W': 'W1', 'M': 'MN'
+    }
+
+    period = period_map.get(period.upper(), 'D1')
+
+    try:
+        data = db_hist.get_kline_data_for_chart(period, limit, reverse=reverse)
+
+        formatted_data = []
+        for d in data:
+            ts_val = d.get('timestamp')
+            try:
+                if isinstance(ts_val, (int, float)):
+                    ts_ms = int(ts_val) if ts_val > 1e12 else int(ts_val * 1000)
+                else:
+                    from datetime import datetime
+                    ts_ms = int(datetime.fromisoformat(str(ts_val).replace('Z', '+00:00')).timestamp() * 1000)
+            except:
+                ts_ms = 0
+
+            formatted_data.append({
+                'timestamp': ts_ms,
+                'datetime': str(d.get('datetime', d.get('timestamp', ''))),
+                'open': float(d['open']),
+                'high': float(d['high']),
+                'low': float(d['low']),
+                'close': float(d['close']),
+                'volume': int(d.get('volume', 0))
+            })
+
+        return {
+            'data': formatted_data,
+            'count': len(formatted_data),
+            'period': period
+        }
+    except Exception as e:
+        logger.error(f"获取K线数据失败: {e}")
+        raise HTTPException(status_code=500, detail="获取K线数据失败")
+
+@api_router.get("/kline/info")
+async def get_kline_info():
+    """获取K线数据信息"""
+    db_hist = get_historical_db()
+
+    return {
+        'periods': ['M1', 'M5', 'M15', 'M30', 'D1', 'W1', 'MN'],
+        'counts': {
+            'M1': db_hist.get_data_count('m1_kline'),
+            'M5': db_hist.get_data_count('m5_kline'),
+            'M15': db_hist.get_data_count('m15_kline'),
+            'M30': db_hist.get_data_count('m30_kline'),
+            'D1': db_hist.get_data_count('daily_kline'),
+        },
+        'default': 'D1'
+    }
 
 @api_router.post("/settings")
 async def save_user_settings(settings: UserSettings):

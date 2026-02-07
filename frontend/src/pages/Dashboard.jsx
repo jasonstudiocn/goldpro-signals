@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import PriceCard from '../components/PriceCard';
 import SignalCard from '../components/SignalCard';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ReferenceLine, ComposedChart, Bar } from 'recharts';
-import { RefreshCw, Activity, TrendingUp, TrendingDown, BarChart3 } from 'lucide-react';
+import KLineChart from '../components/KLineChart';
+import { RefreshCw, TrendingUp, TrendingDown, BarChart3 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { toast } from 'sonner';
 
@@ -13,31 +13,19 @@ const API = `${BACKEND_URL}/api`;
 const Dashboard = () => {
   const [currentPrice, setCurrentPrice] = useState(null);
   const [currentSignal, setCurrentSignal] = useState(null);
-  const [priceHistory, setPriceHistory] = useState([]);
-  const [ohlcData, setOhlcData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
-  const [chartType, setChartType] = useState('line');
+  const [chartPeriod, setChartPeriod] = useState('D1');
 
   const fetchDashboardData = async (showToast = false) => {
     try {
       setRefreshing(true);
 
-      // 获取实时价格
       const priceRes = await axios.get(`${API}/price/current`);
       setCurrentPrice(priceRes.data);
 
-      // 获取当前信号
       const signalRes = await axios.get(`${API}/signals/current`);
       setCurrentSignal(signalRes.data);
-
-      // 获取历史数据（用于折线图）
-      const historyRes = await axios.get(`${API}/price/history?days=7`);
-      setPriceHistory(historyRes.data.data);
-
-      // 获取K线数据（90天）
-      const ohlcRes = await axios.get(`${API}/price/history?days=90`);
-      setOhlcData(ohlcRes.data.data);
 
       if (showToast) {
         toast.success('数据已更新');
@@ -53,83 +41,41 @@ const Dashboard = () => {
 
   useEffect(() => {
     fetchDashboardData();
-    // 每30秒自动刷新
     const interval = setInterval(() => fetchDashboardData(), 30000);
     return () => clearInterval(interval);
   }, []);
 
-  // 自定义K线渲染
-  const renderCandlestick = (props) => {
-    const { x, y, width, high, low, open, close } = props;
-    const isUp = close >= open;
-    const color = isUp ? '#10B981' : '#EF4444';
-    const bodyHeight = Math.abs(open - close);
-    const bodyY = isUp ? y + (high - open) : y + (high - close);
-
-    return (
-      <g>
-        {/* 上下影线 */}
-        <line x1={x + width / 2} y1={y} x2={x + width / 2} y2={y + height} stroke={color} strokeWidth={1} />
-        {/* 实体 */}
-        <rect
-          x={x}
-          y={bodyY}
-          width={width}
-          height={Math.max(bodyHeight, 2)}
-          fill={color}
-          stroke={color}
-        />
-      </g>
-    );
+  const periodLabels = {
+    M1: '1分钟',
+    M5: '5分钟',
+    M15: '15分钟',
+    M30: '30分钟',
+    D1: '日线',
+    W1: '周线',
+    MN: '月线'
   };
 
-  const CustomTooltip = ({ active, payload, type }) => {
-    if (active && payload && payload.length) {
-      const data = payload[0].payload;
-      const isUp = data.close >= data.open;
-      
-      return (
-        <div className="bg-[#1F1F22] border border-white/10 p-3 rounded-sm">
-          <p className="text-xs text-gray-400 mb-2">
-            {new Date(data.timestamp).toLocaleDateString('zh-CN', { 
-              year: 'numeric', 
-              month: 'long', 
-              day: 'numeric',
-              weekday: 'short'
-            })}
-          </p>
-          {type === 'candlestick' ? (
-            <>
-              <div className="grid grid-cols-2 gap-x-4 gap-y-1">
-                <p className="text-xs text-gray-500">开盘</p>
-                <p className="text-xs font-mono text-white">${data.open?.toFixed(2)}</p>
-                <p className="text-xs text-gray-500">最高</p>
-                <p className="text-xs font-mono text-green-400">${data.high?.toFixed(2)}</p>
-                <p className="text-xs text-gray-500">最低</p>
-                <p className="text-xs font-mono text-red-400">${data.low?.toFixed(2)}</p>
-                <p className="text-xs text-gray-500">收盘</p>
-                <p className="text-xs font-mono" style={{ color: isUp ? '#10B981' : '#EF4444' }}>
-                  ${data.close?.toFixed(2)}
-                </p>
-              </div>
-              <div className="mt-2 pt-2 border-t border-white/10">
-                <p className="text-xs text-gray-500">成交量</p>
-                <p className="text-xs font-mono text-white">{(data.volume || 0).toLocaleString()}</p>
-              </div>
-            </>
-          ) : (
-            <>
-              <p className="text-xs text-gray-400 mb-1">价格</p>
-              <p className="text-sm font-mono" style={{ color: isUp ? '#10B981' : '#EF4444' }}>
-                ${data.close?.toFixed(2)}
-              </p>
-            </>
-          )}
-        </div>
-      );
+  const periodLimits = {
+    M1: 1000,
+    M5: 1000,
+    M15: 1000,
+    M30: 1000,
+    D1: 2000,
+    W1: 500,
+    MN: 200
+  };
+
+  useEffect(() => {
+    if (currentPrice && currentPrice.price) {
+      const chartDiv = document.querySelector('[data-testid="price-chart"]');
+      if (chartDiv) {
+        const priceLabel = chartDiv.querySelector('.price-label');
+        if (priceLabel) {
+          priceLabel.textContent = `$${currentPrice.price.toFixed(2)}`;
+        }
+      }
     }
-    return null;
-  };
+  }, [currentPrice]);
 
   return (
     <div className="p-6 lg:p-8" data-testid="dashboard-page">
@@ -140,27 +86,76 @@ const Dashboard = () => {
           <p className="text-sm text-gray-400">实时黄金价格监控与交易信号分析</p>
         </div>
         <div className="flex items-center gap-3">
-          {/* 图表类型切换 */}
           <div className="flex items-center bg-white/5 rounded-sm p-1">
             <button
-              onClick={() => setChartType('line')}
+              onClick={() => setChartPeriod('M1')}
               className={`px-3 py-1 text-xs rounded-sm transition-colors ${
-                chartType === 'line' 
-                  ? 'bg-[#D4AF37] text-black' 
+                chartPeriod === 'M1'
+                  ? 'bg-[#D4AF37] text-black'
                   : 'text-gray-400 hover:text-white'
               }`}
             >
-              折线图
+              M1
             </button>
             <button
-              onClick={() => setChartType('candlestick')}
+              onClick={() => setChartPeriod('M5')}
               className={`px-3 py-1 text-xs rounded-sm transition-colors ${
-                chartType === 'candlestick' 
-                  ? 'bg-[#D4AF37] text-black' 
+                chartPeriod === 'M5'
+                  ? 'bg-[#D4AF37] text-black'
                   : 'text-gray-400 hover:text-white'
               }`}
             >
-              K线图
+              M5
+            </button>
+            <button
+              onClick={() => setChartPeriod('M15')}
+              className={`px-3 py-1 text-xs rounded-sm transition-colors ${
+                chartPeriod === 'M15'
+                  ? 'bg-[#D4AF37] text-black'
+                  : 'text-gray-400 hover:text-white'
+              }`}
+            >
+              M15
+            </button>
+            <button
+              onClick={() => setChartPeriod('M30')}
+              className={`px-3 py-1 text-xs rounded-sm transition-colors ${
+                chartPeriod === 'M30'
+                  ? 'bg-[#D4AF37] text-black'
+                  : 'text-gray-400 hover:text-white'
+              }`}
+            >
+              M30
+            </button>
+            <button
+              onClick={() => setChartPeriod('D1')}
+              className={`px-3 py-1 text-xs rounded-sm transition-colors ${
+                chartPeriod === 'D1'
+                  ? 'bg-[#D4AF37] text-black'
+                  : 'text-gray-400 hover:text-white'
+              }`}
+            >
+              D1
+            </button>
+            <button
+              onClick={() => setChartPeriod('W1')}
+              className={`px-3 py-1 text-xs rounded-sm transition-colors ${
+                chartPeriod === 'W1'
+                  ? 'bg-[#D4AF37] text-black'
+                  : 'text-gray-400 hover:text-white'
+              }`}
+            >
+              W
+            </button>
+            <button
+              onClick={() => setChartPeriod('MN')}
+              className={`px-3 py-1 text-xs rounded-sm transition-colors ${
+                chartPeriod === 'MN'
+                  ? 'bg-[#D4AF37] text-black'
+                  : 'text-gray-400 hover:text-white'
+              }`}
+            >
+              MN
             </button>
           </div>
           <button
@@ -198,13 +193,9 @@ const Dashboard = () => {
       >
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-2">
-            {chartType === 'line' ? (
-              <Activity size={20} className="text-[#D4AF37]" />
-            ) : (
-              <BarChart3 size={20} className="text-[#D4AF37]" />
-            )}
+            <BarChart3 size={20} className="text-[#D4AF37]" />
             <h2 className="text-lg font-heading font-bold text-white">
-              {chartType === 'line' ? '7天价格走势' : '90天K线图'}
+              黄金K线图 ({periodLabels[chartPeriod]})
             </h2>
           </div>
           <div className="flex items-center gap-2 text-xs text-gray-500">
@@ -216,94 +207,34 @@ const Dashboard = () => {
             )}
           </div>
         </div>
-        
+
         {loading ? (
-          <div className="h-80 loading-skeleton rounded"></div>
-        ) : chartType === 'line' ? (
-          <ResponsiveContainer width="100%" height={320}>
-            <LineChart data={priceHistory}>
-              <CartesianGrid strokeDasharray="3 3" stroke="#333333" />
-              <XAxis
-                dataKey="timestamp"
-                stroke="#666"
-                tick={{ fill: '#999', fontSize: 12 }}
-                tickFormatter={(value) => new Date(value).toLocaleDateString('zh-CN', { month: 'short', day: 'numeric' })}
-              />
-              <YAxis
-                stroke="#666"
-                tick={{ fill: '#999', fontSize: 12 }}
-                domain={['dataMin - 5', 'dataMax + 5']}
-              />
-              <Tooltip content={<CustomTooltip type="line" />} />
-              <ReferenceLine y={currentPrice?.price} stroke="#D4AF37" strokeDasharray="5 5" />
-              <Line
-                type="monotone"
-                dataKey="close"
-                stroke="#D4AF37"
-                strokeWidth={2}
-                dot={{ fill: '#D4AF37', r: 3 }}
-                activeDot={{ r: 5 }}
-              />
-            </LineChart>
-          </ResponsiveContainer>
+          <div className="h-[500px] loading-skeleton rounded"></div>
         ) : (
-          <ResponsiveContainer width="100%" height={320}>
-            <ComposedChart data={ohlcData}>
-              <CartesianGrid strokeDasharray="3 3" stroke="#333333" />
-              <XAxis
-                dataKey="timestamp"
-                stroke="#666"
-                tick={{ fill: '#999', fontSize: 10 }}
-                tickFormatter={(value) => new Date(value).toLocaleDateString('zh-CN', { month: 'short', day: 'numeric' })}
-                interval={Math.ceil(ohlcData.length / 6)}
-              />
-              <YAxis
-                stroke="#666"
-                tick={{ fill: '#999', fontSize: 12 }}
-                domain={['dataMin - 10', 'dataMax + 10']}
-              />
-              <Tooltip content={<CustomTooltip type="candlestick" />} />
-              <ReferenceLine y={currentPrice?.price} stroke="#D4AF37" strokeDasharray="5 5" />
-              {/* K线图 - 使用柱状图模拟 */}
-              <Bar
-                dataKey={(data) => Math.abs(data.close - data.open)}
-                barSize={8}
-                fill={(data) => data.close >= data.open ? '#10B981' : '#EF4444'}
-                fillOpacity={0.8}
-              />
-              <Line
-                type="monotone"
-                dataKey="close"
-                stroke="transparent"
-                dot={false}
-              />
-            </ComposedChart>
-          </ResponsiveContainer>
+          <KLineChart period={chartPeriod} height={500} />
         )}
       </motion.div>
 
       {/* 快速统计 */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {[
-          { 
-            label: '今日高点', 
-            value: currentPrice ? `$${(currentPrice.price + Math.abs(currentPrice.change * 0.5)).toFixed(2)}` : '--', 
-            icon: TrendingUp,
-            color: 'text-green-400'
-          },
-          { 
-            label: '今日低点', 
-            value: currentPrice ? `$${(currentPrice.price - Math.abs(currentPrice.change * 0.5)).toFixed(2)}` : '--', 
-            icon: TrendingDown,
-            color: 'text-red-400'
-          },
-          { 
-            label: '90天区间', 
-            value: ohlcData.length > 0 
-              ? `$${Math.min(...ohlcData.map(d => d.close)).toFixed(0)} - $${Math.max(...ohlcData.map(d => d.close)).toFixed(0)}`
-              : '--', 
+          {
+            label: '最新价格',
+            value: currentPrice ? `$${currentPrice.price.toFixed(2)}` : '--',
             icon: BarChart3,
             color: 'text-[#D4AF37]'
+          },
+          {
+            label: '今日涨跌',
+            value: currentPrice ? `${currentPrice.change >= 0 ? '+' : ''}${currentPrice.change.toFixed(2)} (${currentPrice.change >= 0 ? '+' : ''}${currentPrice.change_percent.toFixed(3)}%)` : '--',
+            icon: currentPrice?.change >= 0 ? TrendingUp : TrendingDown,
+            color: currentPrice?.change >= 0 ? 'text-green-400' : 'text-red-400'
+          },
+          {
+            label: '数据来源',
+            value: currentPrice?.sources?.length > 0 ? `${currentPrice.source_count}个` : '--',
+            icon: BarChart3,
+            color: 'text-blue-400'
           },
         ].map((stat, index) => (
           <motion.div

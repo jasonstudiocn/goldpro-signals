@@ -7395,6 +7395,11 @@ kleur@^3.0.3:
   resolved "https://registry.npmjs.org/kleur/-/kleur-3.0.3.tgz"
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
+klinecharts@^9.5.4:
+  version "9.5.4"
+  resolved "https://registry.npmjs.org/klinecharts/-/klinecharts-9.5.4.tgz"
+  integrity sha512-XTt2FO8zV0IHTuqzXhzCGHwYpdLYLou6q6ncKeUb8OPcTXe/HwNMN22YGOdI4JXHKf8zl7xpy9FUbSqPojlOBA==
+
 klona@^2.0.4, klona@^2.0.5:
   version "2.0.6"
   resolved "https://registry.npmjs.org/klona/-/klona-2.0.6.tgz"

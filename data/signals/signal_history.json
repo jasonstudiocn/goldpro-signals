@@ -1,0 +1,8060 @@
+[
+  {
+    "id": "sig_20260207120738",
+    "signal": "HOLD",
+    "confidence": 34.12,
+    "buy_score": 34.12,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:07:38.794503+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 70.1,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 74,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 83.9
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207120839",
+    "signal": "HOLD",
+    "confidence": 32.82,
+    "buy_score": 32.82,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:08:39.026735+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 66.6,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 70,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 75.8
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207120937",
+    "signal": "HOLD",
+    "confidence": 33.27,
+    "buy_score": 33.27,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:09:37.268012+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 65.1,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 75,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 70.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207121046",
+    "signal": "HOLD",
+    "confidence": 36.98,
+    "buy_score": 36.98,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:10:46.460185+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 82.9,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 76,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 82.0
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207121137",
+    "signal": "HOLD",
+    "confidence": 37.18,
+    "buy_score": 37.18,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:11:37.027904+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 83.9,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 76,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 82.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207121237",
+    "signal": "HOLD",
+    "confidence": 35.72,
+    "buy_score": 35.72,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:12:37.308382+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 73.6,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 80,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 75.9
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207121307",
+    "signal": "HOLD",
+    "confidence": 33.66,
+    "buy_score": 33.66,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:13:07.978958+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 72.3,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 68,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 73.7
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207121338",
+    "signal": "HOLD",
+    "confidence": 36.27,
+    "buy_score": 36.27,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:13:38.560885+00:00",
+    "price_at_signal": 2642.49,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 80.1,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 75,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 79.2
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207121342",
+    "signal": "HOLD",
+    "confidence": 33.27,
+    "buy_score": 33.27,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:13:42.137528+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 72.6,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 65,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 77.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207121352",
+    "signal": "HOLD",
+    "confidence": 34.34,
+    "buy_score": 34.34,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:13:52.115498+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 71.2,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 74,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 78.2
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207122546",
+    "signal": "HOLD",
+    "confidence": 35.45,
+    "buy_score": 35.45,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:25:46.412310+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 82.0,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 67,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 73.1
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207122650",
+    "signal": "HOLD",
+    "confidence": 37.32,
+    "buy_score": 37.32,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:26:50.091024+00:00",
+    "price_at_signal": 2650.5,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 81.6,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 80,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 76.9
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207122653",
+    "signal": "HOLD",
+    "confidence": 35.86,
+    "buy_score": 35.86,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:26:53.885685+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 81.8,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 70,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 73.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207122714",
+    "signal": "HOLD",
+    "confidence": 36.34,
+    "buy_score": 36.34,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:27:14.987258+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 76.7,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 80,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 81.3
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207122745",
+    "signal": "HOLD",
+    "confidence": 35.77,
+    "buy_score": 35.77,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:27:45.244527+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 74.6,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 79,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 75.0
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207122906",
+    "signal": "HOLD",
+    "confidence": 34.14,
+    "buy_score": 34.14,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:29:06.795145+00:00",
+    "price_at_signal": 2645.58,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 67.2,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 78,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 79.8
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207122956",
+    "signal": "HOLD",
+    "confidence": 34.25,
+    "buy_score": 34.25,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:29:56.673076+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 76.0,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 67,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 77.4
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207122958",
+    "signal": "HOLD",
+    "confidence": 36.9,
+    "buy_score": 36.9,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:29:58.519120+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 79.5,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 80,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 70.0
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207123000",
+    "signal": "HOLD",
+    "confidence": 37.76,
+    "buy_score": 37.76,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:30:00.429403+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 86.8,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 76,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 76.7
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207123015",
+    "signal": "HOLD",
+    "confidence": 34.57,
+    "buy_score": 34.57,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:30:15.115397+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 71.6,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 75,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 71.1
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207123121",
+    "signal": "HOLD",
+    "confidence": 35.21,
+    "buy_score": 35.21,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:31:21.375342+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 80.8,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 67,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 77.1
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207123123",
+    "signal": "HOLD",
+    "confidence": 35.36,
+    "buy_score": 35.36,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:31:23.266884+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 76.3,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 74,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 82.3
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207123144",
+    "signal": "HOLD",
+    "confidence": 34.17,
+    "buy_score": 34.17,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:31:44.990370+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 66.6,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 79,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 76.9
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207123215",
+    "signal": "HOLD",
+    "confidence": 36.35,
+    "buy_score": 36.35,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:32:15.294952+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 74.5,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 83,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 78.9
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207123303",
+    "signal": "HOLD",
+    "confidence": 38.46,
+    "buy_score": 38.46,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:33:03.302069+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 87.3,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 80,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 77.9
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207123350",
+    "signal": "HOLD",
+    "confidence": 35.01,
+    "buy_score": 35.01,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:33:50.331718+00:00",
+    "price_at_signal": 2645.14,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 73.8,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 75,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 69.6
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207123420",
+    "signal": "HOLD",
+    "confidence": 35.22,
+    "buy_score": 35.22,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:34:20.415937+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 68.1,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 84,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 82.4
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207123423",
+    "signal": "HOLD",
+    "confidence": 32.63,
+    "buy_score": 32.63,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:34:23.326317+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 66.4,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 69,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 74.2
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207123445",
+    "signal": "HOLD",
+    "confidence": 37.91,
+    "buy_score": 37.91,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:34:45.568220+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 82.3,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 83,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 69.9
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207123515",
+    "signal": "HOLD",
+    "confidence": 34.41,
+    "buy_score": 34.41,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:35:15.054540+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 73.8,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 71,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 78.2
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207123554",
+    "signal": "HOLD",
+    "confidence": 37.69,
+    "buy_score": 37.69,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:35:54.102755+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 87.2,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 75,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 73.2
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207123657",
+    "signal": "HOLD",
+    "confidence": 32.48,
+    "buy_score": 32.48,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:36:57.008539+00:00",
+    "price_at_signal": 2653.38,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 66.4,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 68,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 81.2
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207123701",
+    "signal": "HOLD",
+    "confidence": 35.16,
+    "buy_score": 35.16,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:37:01.040647+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 73.8,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 76,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 72.2
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207123724",
+    "signal": "HOLD",
+    "confidence": 33.52,
+    "buy_score": 33.52,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:37:24.141403+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 73.1,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 66,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 74.3
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207123745",
+    "signal": "HOLD",
+    "confidence": 35.49,
+    "buy_score": 35.49,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:37:45.158771+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 79.2,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 71,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 68.6
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207123858",
+    "signal": "HOLD",
+    "confidence": 36.44,
+    "buy_score": 36.44,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:38:58.540869+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 87.7,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 66,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 84.4
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207123915",
+    "signal": "HOLD",
+    "confidence": 35.58,
+    "buy_score": 35.58,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:39:15.086145+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 77.4,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 74,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 75.3
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207123944",
+    "signal": "HOLD",
+    "confidence": 35.05,
+    "buy_score": 35.05,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:39:44.984158+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 75.5,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 73,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 79.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207124015",
+    "signal": "HOLD",
+    "confidence": 33.65,
+    "buy_score": 33.65,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:40:15.299182+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 70.0,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 71,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 72.7
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207124045",
+    "signal": "HOLD",
+    "confidence": 38.9,
+    "buy_score": 38.9,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:40:45.084784+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 86.5,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 84,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 84.4
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207124115",
+    "signal": "HOLD",
+    "confidence": 35.05,
+    "buy_score": 35.05,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:41:15.148171+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 78.5,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 69,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 79.7
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207124157",
+    "signal": "HOLD",
+    "confidence": 37.77,
+    "buy_score": 37.77,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:41:57.471132+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 80.1,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 85,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 84.1
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207124225",
+    "signal": "HOLD",
+    "confidence": 33.51,
+    "buy_score": 33.51,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:42:25.326433+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 66.3,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 75,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 74.4
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207124246",
+    "signal": "HOLD",
+    "confidence": 34.01,
+    "buy_score": 34.01,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:42:46.184032+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 67.3,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 77,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 77.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207124316",
+    "signal": "HOLD",
+    "confidence": 36.74,
+    "buy_score": 36.74,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:43:16.350047+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 80.2,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 78,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 77.8
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207124355",
+    "signal": "HOLD",
+    "confidence": 33.46,
+    "buy_score": 33.46,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:43:55.446094+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 68.3,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 72,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 80.3
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207124416",
+    "signal": "HOLD",
+    "confidence": 33.25,
+    "buy_score": 33.25,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:44:16.223075+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 72.5,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 65,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 70.9
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207124450",
+    "signal": "HOLD",
+    "confidence": 34.26,
+    "buy_score": 34.26,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T12:44:50.204150+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 67.8,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 78,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 72.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207130302",
+    "signal": "HOLD",
+    "confidence": 34.18,
+    "buy_score": 34.18,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:03:02.507231+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 68.9,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 76,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 73.4
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207130323",
+    "signal": "HOLD",
+    "confidence": 38.48,
+    "buy_score": 38.48,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:03:23.158491+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 87.4,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 80,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 81.1
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207130353",
+    "signal": "HOLD",
+    "confidence": 36.24,
+    "buy_score": 36.24,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:03:53.324190+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 79.2,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 76,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 74.8
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207130423",
+    "signal": "HOLD",
+    "confidence": 37.96,
+    "buy_score": 37.96,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:04:23.555507+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 84.8,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 80,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 75.1
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207130536",
+    "signal": "HOLD",
+    "confidence": 34.0,
+    "buy_score": 34.0,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:05:36.787085+00:00",
+    "price_at_signal": 2645.53,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 74.0,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 68,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 70.1
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207130540",
+    "signal": "HOLD",
+    "confidence": 35.38,
+    "buy_score": 35.38,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:05:40.544105+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 74.9,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 76,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 81.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207130643",
+    "signal": "HOLD",
+    "confidence": 36.55,
+    "buy_score": 36.55,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:06:43.777502+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 81.5,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 75,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 78.2
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207130711",
+    "signal": "HOLD",
+    "confidence": 34.13,
+    "buy_score": 34.13,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:07:11.312632+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 67.9,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 77,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 82.8
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207130815",
+    "signal": "HOLD",
+    "confidence": 36.84,
+    "buy_score": 36.84,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:08:15.899644+00:00",
+    "price_at_signal": 2654.31,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 80.7,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 78,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 82.2
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207130830",
+    "signal": "HOLD",
+    "confidence": 39.16,
+    "buy_score": 39.16,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:08:30.493660+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 87.8,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 84,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 79.7
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207130841",
+    "signal": "HOLD",
+    "confidence": 33.21,
+    "buy_score": 33.21,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:08:41.131563+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 70.8,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 67,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 73.4
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207130911",
+    "signal": "HOLD",
+    "confidence": 35.71,
+    "buy_score": 35.71,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:09:11.382265+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 69.8,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 85,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 69.6
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207130941",
+    "signal": "HOLD",
+    "confidence": 35.11,
+    "buy_score": 35.11,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:09:41.324598+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 77.3,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 71,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 82.1
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207131012",
+    "signal": "HOLD",
+    "confidence": 32.66,
+    "buy_score": 32.66,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:10:12.080387+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 67.3,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 68,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 77.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207131041",
+    "signal": "HOLD",
+    "confidence": 33.53,
+    "buy_score": 33.53,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:10:41.234586+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 69.4,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 71,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 75.0
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207131111",
+    "signal": "HOLD",
+    "confidence": 34.71,
+    "buy_score": 34.71,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:11:11.553574+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 79.8,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 65,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 68.9
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207131142",
+    "signal": "HOLD",
+    "confidence": 34.74,
+    "buy_score": 34.74,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:11:42.520507+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 79.2,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 66,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 84.2
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207131211",
+    "signal": "HOLD",
+    "confidence": 37.56,
+    "buy_score": 37.56,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:12:11.303343+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 82.8,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 80,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 76.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207131242",
+    "signal": "HOLD",
+    "confidence": 36.18,
+    "buy_score": 36.18,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:12:42.213156+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 75.9,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 80,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 77.2
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207131349",
+    "signal": "HOLD",
+    "confidence": 35.88,
+    "buy_score": 35.88,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:13:49.284631+00:00",
+    "price_at_signal": 2656.8,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 77.4,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 76,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 82.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207131352",
+    "signal": "HOLD",
+    "confidence": 38.12,
+    "buy_score": 38.12,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:13:52.984380+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 87.1,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 78,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 75.9
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207131438",
+    "signal": "HOLD",
+    "confidence": 36.04,
+    "buy_score": 36.04,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:14:38.787790+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 75.2,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 80,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 77.4
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207131532",
+    "signal": "HOLD",
+    "confidence": 38.22,
+    "buy_score": 38.22,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:15:32.760028+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 87.6,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 78,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 70.3
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207131638",
+    "signal": "HOLD",
+    "confidence": 36.95,
+    "buy_score": 36.95,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:16:38.192745+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 79.0,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 81,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 80.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207131758",
+    "signal": "HOLD",
+    "confidence": 33.25,
+    "buy_score": 33.25,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:17:58.054780+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 66.5,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 73,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 70.4
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207131856",
+    "signal": "HOLD",
+    "confidence": 34.27,
+    "buy_score": 34.27,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:18:56.314480+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 71.6,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 73,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 73.7
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207131937",
+    "signal": "HOLD",
+    "confidence": 33.92,
+    "buy_score": 33.92,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:19:37.245877+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 69.1,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 74,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 76.8
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207132037",
+    "signal": "HOLD",
+    "confidence": 34.99,
+    "buy_score": 34.99,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:20:37.267200+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 69.2,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 81,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 77.1
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207132138",
+    "signal": "HOLD",
+    "confidence": 34.85,
+    "buy_score": 34.85,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:21:38.959734+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 74.5,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 73,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 79.1
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207132237",
+    "signal": "HOLD",
+    "confidence": 35.21,
+    "buy_score": 35.21,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:22:37.438895+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 71.8,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 79,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 76.7
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207132420",
+    "signal": "HOLD",
+    "confidence": 35.01,
+    "buy_score": 35.01,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:24:20.386674+00:00",
+    "price_at_signal": 2641.4,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 76.8,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 71,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 84.8
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207132426",
+    "signal": "HOLD",
+    "confidence": 37.13,
+    "buy_score": 37.13,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:24:26.103995+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 82.9,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 77,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 69.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207132428",
+    "signal": "HOLD",
+    "confidence": 38.08,
+    "buy_score": 38.08,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T13:24:28.087902+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 82.4,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 84,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 78.9
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207140614",
+    "signal": "HOLD",
+    "confidence": 37.75,
+    "buy_score": 37.75,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:06:14.325921+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 86.0,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 77,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 84.4
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207140641",
+    "signal": "HOLD",
+    "confidence": 35.75,
+    "buy_score": 35.75,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:06:41.774798+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 79.0,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 73,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 75.3
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207140717",
+    "signal": "HOLD",
+    "confidence": 32.95,
+    "buy_score": 32.95,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:07:17.169333+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 65.0,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 73,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 77.2
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207140727",
+    "signal": "HOLD",
+    "confidence": 37.63,
+    "buy_score": 37.63,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:07:27.122208+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 85.4,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 77,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 69.9
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207140807",
+    "signal": "HOLD",
+    "confidence": 33.27,
+    "buy_score": 33.27,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:08:07.483641+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 72.6,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 65,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 70.2
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207140825",
+    "signal": "HOLD",
+    "confidence": 37.15,
+    "buy_score": 37.15,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:08:25.330752+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 81.5,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 79,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 81.3
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207140855",
+    "signal": "HOLD",
+    "confidence": 34.06,
+    "buy_score": 34.06,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:08:55.591918+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 65.3,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 80,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 68.1
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207141022",
+    "signal": "HOLD",
+    "confidence": 35.45,
+    "buy_score": 35.45,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:10:22.615293+00:00",
+    "price_at_signal": 2654.62,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 80.5,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 69,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 83.2
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207141031",
+    "signal": "HOLD",
+    "confidence": 36.57,
+    "buy_score": 36.57,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:10:31.643506+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 81.6,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 75,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 72.7
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207141034",
+    "signal": "HOLD",
+    "confidence": 36.98,
+    "buy_score": 36.98,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:10:34.097777+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 87.4,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 70,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 72.9
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207141055",
+    "signal": "HOLD",
+    "confidence": 36.17,
+    "buy_score": 36.17,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:10:55.246257+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 79.6,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 75,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 75.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207141216",
+    "signal": "HOLD",
+    "confidence": 38.14,
+    "buy_score": 38.14,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:12:16.578879+00:00",
+    "price_at_signal": 2650.71,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 87.2,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 78,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 71.4
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207141222",
+    "signal": "HOLD",
+    "confidence": 35.53,
+    "buy_score": 35.53,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:12:22.886662+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 79.4,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 71,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 82.0
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207141227",
+    "signal": "HOLD",
+    "confidence": 35.93,
+    "buy_score": 35.93,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:12:27.750444+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 76.9,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 77,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 69.1
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207141256",
+    "signal": "HOLD",
+    "confidence": 35.04,
+    "buy_score": 35.04,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:12:56.718587+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 71.7,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 78,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 74.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207141418",
+    "signal": "HOLD",
+    "confidence": 36.51,
+    "buy_score": 36.51,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:14:18.904141+00:00",
+    "price_at_signal": 2655.93,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 87.3,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 67,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 82.7
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207141509",
+    "signal": "HOLD",
+    "confidence": 34.25,
+    "buy_score": 34.25,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:15:09.940506+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 76.0,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 67,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 80.1
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207141515",
+    "signal": "HOLD",
+    "confidence": 36.95,
+    "buy_score": 36.95,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:15:15.060576+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 85.0,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 73,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 73.9
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207141539",
+    "signal": "HOLD",
+    "confidence": 36.85,
+    "buy_score": 36.85,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:15:39.437006+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 83.0,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 75,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 76.9
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207141638",
+    "signal": "HOLD",
+    "confidence": 36.35,
+    "buy_score": 36.35,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:16:38.954095+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 74.5,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 83,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 78.6
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207141715",
+    "signal": "HOLD",
+    "confidence": 35.81,
+    "buy_score": 35.81,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:17:15.391379+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 74.8,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 79,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 71.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207141720",
+    "signal": "HOLD",
+    "confidence": 38.08,
+    "buy_score": 38.08,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:17:20.197444+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 86.9,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 78,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 68.0
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207142827",
+    "signal": "HOLD",
+    "confidence": 33.42,
+    "buy_score": 33.42,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:28:27.382117+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 68.1,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 72,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 68.7
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207142857",
+    "signal": "HOLD",
+    "confidence": 34.89,
+    "buy_score": 34.89,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:28:57.848930+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 67.2,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 83,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 82.0
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207142927",
+    "signal": "HOLD",
+    "confidence": 37.1,
+    "buy_score": 37.1,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:29:27.677511+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 85.0,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 74,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 71.9
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207142954",
+    "signal": "HOLD",
+    "confidence": 36.05,
+    "buy_score": 36.05,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:29:54.762215+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 79.0,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 75,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 82.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207143024",
+    "signal": "HOLD",
+    "confidence": 37.78,
+    "buy_score": 37.78,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:30:24.601053+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 86.9,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 76,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 73.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207143055",
+    "signal": "HOLD",
+    "confidence": 34.1,
+    "buy_score": 34.1,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:30:55.390831+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 74.5,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 68,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 82.6
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207143150",
+    "signal": "HOLD",
+    "confidence": 36.79,
+    "buy_score": 36.79,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:31:50.602537+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 81.2,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 77,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 70.1
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207143326",
+    "signal": "HOLD",
+    "confidence": 37.25,
+    "buy_score": 37.25,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:33:26.549850+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 85.0,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 75,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 73.9
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207143356",
+    "signal": "HOLD",
+    "confidence": 34.23,
+    "buy_score": 34.23,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:33:56.780740+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 74.4,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 69,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 75.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207143519",
+    "signal": "HOLD",
+    "confidence": 37.41,
+    "buy_score": 37.41,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:35:19.266956+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 82.8,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 79,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 81.3
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207143520",
+    "signal": "HOLD",
+    "confidence": 35.52,
+    "buy_score": 35.52,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:35:20.850264+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 71.1,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 82,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 70.6
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207143527",
+    "signal": "HOLD",
+    "confidence": 37.02,
+    "buy_score": 37.02,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:35:27.076877+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 87.6,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 70,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 76.1
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207143556",
+    "signal": "HOLD",
+    "confidence": 37.5,
+    "buy_score": 37.5,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:35:56.300762+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 84.0,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 78,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 77.8
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207143603",
+    "signal": "HOLD",
+    "confidence": 34.32,
+    "buy_score": 34.32,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:36:03.726925+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 68.1,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 78,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 72.4
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207143639",
+    "signal": "HOLD",
+    "confidence": 36.41,
+    "buy_score": 36.41,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:36:39.940801+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 77.8,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 79,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 75.3
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207143706",
+    "signal": "HOLD",
+    "confidence": 34.39,
+    "buy_score": 34.39,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:37:06.431490+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 67.7,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 79,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 76.1
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207143757",
+    "signal": "HOLD",
+    "confidence": 37.16,
+    "buy_score": 37.16,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:37:57.911150+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 80.8,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 80,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 78.6
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207143825",
+    "signal": "HOLD",
+    "confidence": 37.96,
+    "buy_score": 37.96,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:38:25.353312+00:00",
+    "price_at_signal": 2657.61,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 86.3,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 78,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 81.9
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207143833",
+    "signal": "HOLD",
+    "confidence": 32.26,
+    "buy_score": 32.26,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:38:33.178851+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 65.3,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 68,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 69.0
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207143903",
+    "signal": "HOLD",
+    "confidence": 37.1,
+    "buy_score": 37.1,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:39:03.816368+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 83.5,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 76,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 76.3
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207143938",
+    "signal": "HOLD",
+    "confidence": 37.12,
+    "buy_score": 37.12,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:39:38.074710+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 82.1,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 78,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 74.3
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207144109",
+    "signal": "HOLD",
+    "confidence": 37.73,
+    "buy_score": 37.73,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:41:09.437731+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 79.9,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 85,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 84.9
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207144249",
+    "signal": "HOLD",
+    "confidence": 35.68,
+    "buy_score": 35.68,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:42:49.980573+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 77.9,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 74,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 79.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207144416",
+    "signal": "HOLD",
+    "confidence": 35.75,
+    "buy_score": 35.75,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:44:16.543317+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 77.5,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 75,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 79.0
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207144437",
+    "signal": "HOLD",
+    "confidence": 35.79,
+    "buy_score": 35.79,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:44:37.018597+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 74.7,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 79,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 83.4
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207144537",
+    "signal": "HOLD",
+    "confidence": 35.88,
+    "buy_score": 35.88,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:45:37.667217+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 75.9,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 78,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 82.2
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207144637",
+    "signal": "HOLD",
+    "confidence": 35.91,
+    "buy_score": 35.91,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:46:37.374544+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 75.3,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 79,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 84.0
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207144736",
+    "signal": "HOLD",
+    "confidence": 33.06,
+    "buy_score": 33.06,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:47:36.915704+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 66.3,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 72,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 75.3
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207144836",
+    "signal": "HOLD",
+    "confidence": 34.21,
+    "buy_score": 34.21,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:48:36.780222+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 69.8,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 75,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 75.7
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207144936",
+    "signal": "HOLD",
+    "confidence": 35.82,
+    "buy_score": 35.82,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:49:36.952275+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 83.1,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 68,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 83.2
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207145036",
+    "signal": "HOLD",
+    "confidence": 34.83,
+    "buy_score": 34.83,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:50:36.777190+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 71.4,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 77,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 83.2
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207145137",
+    "signal": "HOLD",
+    "confidence": 35.98,
+    "buy_score": 35.98,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:51:37.164181+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 79.4,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 74,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 84.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207145238",
+    "signal": "HOLD",
+    "confidence": 36.61,
+    "buy_score": 36.61,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:52:38.634445+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 81.8,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 75,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 84.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207145336",
+    "signal": "HOLD",
+    "confidence": 36.57,
+    "buy_score": 36.57,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:53:36.974655+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 80.1,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 77,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 75.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207145436",
+    "signal": "HOLD",
+    "confidence": 37.5,
+    "buy_score": 37.5,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:54:36.751182+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 87.0,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 74,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 83.3
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207145538",
+    "signal": "HOLD",
+    "confidence": 35.8,
+    "buy_score": 35.8,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:55:38.350879+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 74.0,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 80,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 68.2
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207145638",
+    "signal": "HOLD",
+    "confidence": 37.45,
+    "buy_score": 37.45,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:56:38.108495+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 87.5,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 73,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 84.0
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207145737",
+    "signal": "HOLD",
+    "confidence": 36.93,
+    "buy_score": 36.93,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:57:37.018778+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 83.4,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 75,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 82.0
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207145845",
+    "signal": "HOLD",
+    "confidence": 34.81,
+    "buy_score": 34.81,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:58:45.977831+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 80.3,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 65,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 72.2
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207145937",
+    "signal": "HOLD",
+    "confidence": 33.93,
+    "buy_score": 33.93,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T14:59:37.078975+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 68.4,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 75,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 73.8
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207150036",
+    "signal": "HOLD",
+    "confidence": 37.01,
+    "buy_score": 37.01,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T15:00:36.971800+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 82.3,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 77,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 78.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207150136",
+    "signal": "HOLD",
+    "confidence": 32.68,
+    "buy_score": 32.68,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T15:01:36.483788+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 65.9,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 70,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 83.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207150141",
+    "signal": "HOLD",
+    "confidence": 36.95,
+    "buy_score": 36.95,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T15:01:41.575559+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 79.0,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 81,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 83.5
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207150212",
+    "signal": "HOLD",
+    "confidence": 34.61,
+    "buy_score": 34.61,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T15:02:12.084211+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 73.3,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 73,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 79.0
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207150251",
+    "signal": "HOLD",
+    "confidence": 33.96,
+    "buy_score": 33.96,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T15:02:51.141908+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 66.3,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 78,
+        "pattern": "头肩底"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 78.2
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207150311",
+    "signal": "HOLD",
+    "confidence": 37.68,
+    "buy_score": 37.68,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T15:03:11.660058+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 86.4,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 76,
+        "pattern": "双底形态"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 73.0
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207150346",
+    "signal": "HOLD",
+    "confidence": 34.0,
+    "buy_score": 34.0,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T15:03:46.404604+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 66.5,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 78,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 79.7
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207150410",
+    "signal": "HOLD",
+    "confidence": 36.95,
+    "buy_score": 36.95,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T15:04:10.862370+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 85.0,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 73,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 81.0
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207150441",
+    "signal": "HOLD",
+    "confidence": 35.19,
+    "buy_score": 35.19,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T15:04:41.276393+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 74.7,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 75,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 70.2
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207150511",
+    "signal": "HOLD",
+    "confidence": 34.16,
+    "buy_score": 34.16,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T15:05:11.909517+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 68.8,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 76,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 84.4
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207150541",
+    "signal": "HOLD",
+    "confidence": 35.86,
+    "buy_score": 35.86,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T15:05:41.284975+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 77.3,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 76,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 78.8
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207150544",
+    "signal": "HOLD",
+    "confidence": 35.09,
+    "buy_score": 35.09,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T15:05:44.781627+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 72.7,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 77,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 74.2
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207150557",
+    "signal": "HOLD",
+    "confidence": 33.37,
+    "buy_score": 33.37,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T15:05:57.387399+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 73.1,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 65,
+        "pattern": "旗形整理"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 80.6
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207150612",
+    "signal": "HOLD",
+    "confidence": 33.57,
+    "buy_score": 33.57,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T15:06:12.005939+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 69.6,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 71,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 74.8
+      }
+    ]
+  },
+  {
+    "id": "sig_20260207150642",
+    "signal": "HOLD",
+    "confidence": 34.1,
+    "buy_score": 34.1,
+    "sell_score": 6.0,
+    "recommendation": "建议观望，等待更明确信号",
+    "timestamp": "2026-02-07T15:06:42.612678+00:00",
+    "price_at_signal": 4966.26,
+    "signals_detail": [
+      {
+        "indicator": "RSI",
+        "signal": "HOLD",
+        "confidence": 82.43,
+        "value": 58.79
+      },
+      {
+        "indicator": "MACD",
+        "signal": "BUY",
+        "confidence": 60,
+        "histogram": 33.2
+      },
+      {
+        "indicator": "Bollinger Bands",
+        "signal": "HOLD",
+        "confidence": 50
+      },
+      {
+        "indicator": "Stochastic",
+        "signal": "SELL",
+        "confidence": 60
+      },
+      {
+        "indicator": "AI新闻分析",
+        "signal": "BUY",
+        "confidence": 73.0,
+        "summary": "综合宏观经济、货币政策、地缘政治等因素分析，市场整体呈现看涨趋势。"
+      },
+      {
+        "indicator": "AI图表分析",
+        "signal": "BUY",
+        "confidence": 70,
+        "pattern": "上升三角形"
+      },
+      {
+        "indicator": "AI情绪分析",
+        "signal": "HOLD",
+        "confidence": 75.0
+      }
+    ]
+  }
+]

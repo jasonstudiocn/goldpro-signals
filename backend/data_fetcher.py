@@ -29,13 +29,13 @@ class GoldDataFetcher:
             
             # 尝试多种可能的选择器
             selectors = [
-                {'class': 'gold-price'},
-                {'id': 'sp-ask'},
-                {'class': 'price-value'}
+                ('span', {'class_': 'gold-price'}),
+                ('span', {'id_': 'sp-ask'}),
+                ('span', {'class_': 'price-value'})
             ]
             
-            for selector in selectors:
-                element = soup.find('span', selector) or soup.find('div', selector)
+            for tag, attrs in selectors:
+                element = soup.find(tag, attrs)
                 if element:
                     price_text = element.get_text().strip()
                     price = float(re.sub(r'[^\d.]', '', price_text))
@@ -73,7 +73,7 @@ class GoldDataFetcher:
             soup = BeautifulSoup(response.content, 'html.parser')
             
             # XE通常显示1 XAU = X USD
-            element = soup.find('p', {'class': 'result__BigRate-sc-1bsijpp-1'})
+            element = soup.find('p', class_='result__BigRate-sc-1bsijpp-1')
             if element:
                 price_text = element.get_text().strip()
                 price = float(re.sub(r'[^\d.]', '', price_text))
@@ -91,7 +91,7 @@ class GoldDataFetcher:
             response = requests.get("https://tradingeconomics.com/commodity/gold", headers=self.headers, timeout=self.timeout)
             soup = BeautifulSoup(response.content, 'html.parser')
             
-            element = soup.find('span', {'id': 'p'}) or soup.find('div', {'class': 'price'})
+            element = soup.find('span', id='p') or soup.find('div', class_='price')
             if element:
                 price_text = element.get_text().strip()
                 price = float(re.sub(r'[^\d.]', '', price_text))
@@ -109,7 +109,7 @@ class GoldDataFetcher:
             response = requests.get("https://www.fxstreet.com/rates-charts/gold-price", headers=self.headers, timeout=self.timeout)
             soup = BeautifulSoup(response.content, 'html.parser')
             
-            element = soup.find('span', {'class': 'fxs_quote_val'})
+            element = soup.find('span', class_='fxs_quote_val')
             if element:
                 price_text = element.get_text().strip()
                 price = float(re.sub(r'[^\d.]', '', price_text))
@@ -151,9 +151,9 @@ class GoldDataFetcher:
             soup = BeautifulSoup(response.content, 'html.parser')
             
             # 查找金价元素
-            element = soup.find('div', {'id': 'gp-gold-price-usd'})
+            element = soup.find('div', id='gp-gold-price-usd')
             if not element:
-                element = soup.find('span', {'class': 'price'})
+                element = soup.find('span', class_='price')
             
             if element:
                 price_text = element.get_text().strip()
@@ -180,13 +180,13 @@ class GoldDataFetcher:
             
             # 尝试多种可能的选择器
             selectors = [
-                {'attrs': {'data-test': 'instrument-price-last'}},
-                {'class': 'text-2xl'},
-                {'class': 'instrument-price_last__KQzyA'}
+                ('div', {'data-test': 'instrument-price-last'}),
+                ('div', {'class_': 'text-2xl'}),
+                ('div', {'class_': 'instrument-price_last__KQzyA'})
             ]
             
-            for selector in selectors:
-                element = soup.find('div', selector) or soup.find('span', selector)
+            for tag, attrs in selectors:
+                element = soup.find(tag, attrs)
                 if element:
                     price_text = element.get_text().strip()
                     price_text = re.sub(r'[^\d.]', '', price_text)
@@ -199,6 +199,55 @@ class GoldDataFetcher:
             logger.warning(f"Investing.com爬取失败: {e}")
             return None
     
+    def fetch_from_metalsapi(self) -> Optional[float]:
+        """从Metals-API获取金价"""
+        try:
+            response = requests.get(
+                "https://www.metals-api.com/api/latest?base=XAU&access_key=demo",
+                headers=self.headers,
+                timeout=self.timeout
+            )
+            if response.status_code == 200:
+                data = response.json()
+                if 'rates' in data and 'USD' in data['rates']:
+                    price_per_oz = data['rates']['USD']
+                    if 2000 < price_per_oz < 10000:
+                        return float(price_per_oz)
+            return None
+        except Exception as e:
+            logger.warning(f"Metals-API爬取失败: {e}")
+            return None
+
+    def fetch_from_goldprices_org_scraper(self) -> Optional[float]:
+        """从goldprices.org获取金价（备用爬虫）"""
+        try:
+            response = requests.get(
+                "https://www.goldprices.org/",
+                headers=self.headers,
+                timeout=self.timeout
+            )
+            soup = BeautifulSoup(response.content, 'html.parser')
+
+            # 尝试多种选择器
+            selectors = [
+                ('span', {'class_': 'gold-price'}),
+                ('div', {'class_': 'price-value'}),
+                ('p', {'class_': 'current-price'})
+            ]
+
+            for tag, attrs in selectors:
+                element = soup.find(tag, attrs)
+                if element:
+                    price_text = element.get_text().strip()
+                    price = float(re.sub(r'[^\d.]', '', price_text))
+                    if 2000 < price < 10000:
+                        return price
+
+            return None
+        except Exception as e:
+            logger.warning(f"GoldPrices.org爬取失败: {e}")
+            return None
+
     def fetch_from_bullionvault(self) -> Optional[float]:
         """从BullionVault获取金价"""
         try:
@@ -209,7 +258,7 @@ class GoldDataFetcher:
             )
             soup = BeautifulSoup(response.content, 'html.parser')
             
-            element = soup.find('span', {'class': 'price'}) or soup.find('div', {'class': 'spotPrice'})
+            element = soup.find('span', class_='price') or soup.find('div', class_='spotPrice')
             if element:
                 price_text = element.get_text().strip()
                 price_text = re.sub(r'[^\d.]', '', price_text)
@@ -227,6 +276,7 @@ class GoldDataFetcher:
         sources = [
             ('GoldPrice.org API', self.fetch_from_goldprice_org_api),  # 最可靠的源放第一位
             ('GoldPrice.org', self.fetch_from_goldprice_org),
+            ('GoldPrices.org', self.fetch_from_goldprices_org_scraper),
             ('Investing.com', self.fetch_from_investing_com),
             ('BullionVault', self.fetch_from_bullionvault),
             ('Kitco', self.fetch_from_kitco),
@@ -234,6 +284,7 @@ class GoldDataFetcher:
             ('TradingEconomics', self.fetch_from_tradingeconomics),
             ('FXStreet', self.fetch_from_fxstreet),
             ('Gold-API', self.fetch_from_freegoldapi),
+            ('Metals-API', self.fetch_from_metalsapi),
         ]
         
         prices = []
