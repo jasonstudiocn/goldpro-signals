@@ -111,22 +111,106 @@ class GoldDataFetcher:
             logger.warning(f"FXStreet爬取失败: {e}")
             return None
     
-    def fetch_from_capital(self) -> Optional[float]:
-        """从Capital.com获取金价"""
+    def fetch_from_metals_api(self) -> Optional[float]:
+        """从metals-api.com获取金价（免费层）"""
         try:
-            response = requests.get("https://capital.com/gold-spot-price", headers=self.headers, timeout=self.timeout)
+            # 使用公开的金价API
+            response = requests.get(
+                "https://api.metals.live/v1/spot/gold",
+                headers=self.headers,
+                timeout=self.timeout
+            )
+            if response.status_code == 200:
+                data = response.json()
+                # API返回的是每盎司价格
+                price = float(data[0]) if isinstance(data, list) else float(data)
+                if 2000 < price < 3500:
+                    return price
+            return None
+        except Exception as e:
+            logger.warning(f"Metals-API爬取失败: {e}")
+            return None
+    
+    def fetch_from_goldprice_org(self) -> Optional[float]:
+        """从goldprice.org获取金价"""
+        try:
+            response = requests.get(
+                "https://www.goldprice.org/",
+                headers=self.headers,
+                timeout=self.timeout
+            )
             soup = BeautifulSoup(response.content, 'html.parser')
             
-            element = soup.find('span', {'class': 'price'})
+            # 查找金价元素
+            element = soup.find('div', {'id': 'gp-gold-price-usd'})
+            if not element:
+                element = soup.find('span', {'class': 'price'})
+            
             if element:
                 price_text = element.get_text().strip()
-                price = float(re.sub(r'[^\d.]', '', price_text))
+                # 移除货币符号和逗号
+                price_text = re.sub(r'[^\d.]', '', price_text)
+                price = float(price_text)
                 if 2000 < price < 3500:
                     return price
             
             return None
         except Exception as e:
-            logger.warning(f"Capital.com爬取失败: {e}")
+            logger.warning(f"GoldPrice.org爬取失败: {e}")
+            return None
+    
+    def fetch_from_investing_com(self) -> Optional[float]:
+        """从investing.com获取金价"""
+        try:
+            response = requests.get(
+                "https://www.investing.com/commodities/gold",
+                headers=self.headers,
+                timeout=self.timeout
+            )
+            soup = BeautifulSoup(response.content, 'html.parser')
+            
+            # 尝试多种可能的选择器
+            selectors = [
+                {'attrs': {'data-test': 'instrument-price-last'}},
+                {'class': 'text-2xl'},
+                {'class': 'instrument-price_last__KQzyA'}
+            ]
+            
+            for selector in selectors:
+                element = soup.find('div', selector) or soup.find('span', selector)
+                if element:
+                    price_text = element.get_text().strip()
+                    price_text = re.sub(r'[^\d.]', '', price_text)
+                    price = float(price_text)
+                    if 2000 < price < 3500:
+                        return price
+            
+            return None
+        except Exception as e:
+            logger.warning(f"Investing.com爬取失败: {e}")
+            return None
+    
+    def fetch_from_bullionvault(self) -> Optional[float]:
+        """从BullionVault获取金价"""
+        try:
+            response = requests.get(
+                "https://www.bullionvault.com/gold-price-chart.do",
+                headers=self.headers,
+                timeout=self.timeout
+            )
+            soup = BeautifulSoup(response.content, 'html.parser')
+            
+            element = soup.find('span', {'class': 'price'}) or soup.find('div', {'class': 'spotPrice'})
+            if element:
+                price_text = element.get_text().strip()
+                price_text = re.sub(r'[^\d.]', '', price_text)
+                price = float(price_text)
+                if 2000 < price < 3500:
+                    return price
+            
+            return None
+        except Exception as e:
+            logger.warning(f"BullionVault爬取失败: {e}")
             return None
     
     def fetch_real_time_price(self) -> Optional[Dict]:
