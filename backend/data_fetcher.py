@@ -399,18 +399,39 @@ class GoldDataFetcher:
         return data
     
     def _fetch_historical_prices(self, days: int = 90) -> Optional[List[Dict]]:
-        """从免费API获取历史价格数据（每日数据）"""
+        """从真实CSV历史数据获取每日价格"""
         try:
-            # freegoldapi 只提供年度数据，不适合技术分析
-            # 尝试其他免费API
-            response = requests.get(
-                "https://api.gold底层数据.com/daily",  # 示例端点
-                timeout=10
-            )
-            if response.status_code == 200:
-                return response.json()
+            import pandas as pd
+            from pathlib import Path
+            
+            historical_path = "/Users/mac/AI/gold-trading-system/data/history/GOLD"
+            daily_file = Path(historical_path) / 'GOLD_Daily_200701280000_202601300000.csv'
+            
+            if daily_file.exists():
+                df = pd.read_csv(daily_file, sep='\t')
+                df.columns = df.columns.str.strip().str.replace('<', '').str.replace('>', '')
+                df['DATE'] = pd.to_datetime(df['DATE'], format='%Y.%m.%d')
+                df = df.sort_values('DATE', ascending=True)
+                
+                # 取最近的days条数据
+                if len(df) > days:
+                    df = df.tail(days)
+                
+                historical_data = []
+                for _, row in df.iterrows():
+                    historical_data.append({
+                        'timestamp': row['DATE'].replace(tzinfo=timezone.utc).isoformat(),
+                        'open': float(row['OPEN']),
+                        'high': float(row['HIGH']),
+                        'low': float(row['LOW']),
+                        'close': float(row['CLOSE']),
+                        'volume': int(row['VOL']) if row['VOL'] else int(row.get('TICKVOL', 0))
+                    })
+                
+                logger.info(f"从CSV加载真实历史数据: {len(historical_data)} 条")
+                return historical_data
+            
         except Exception as e:
-            logger.warning(f"获取每日历史价格失败: {e}")
+            logger.warning(f"从CSV加载历史数据失败: {e}")
         
-        # 返回None，使用增强模拟数据
         return None
