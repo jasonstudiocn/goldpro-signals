@@ -25,7 +25,14 @@ const PriceCard = ({ price, change, changePercent, loading }) => {
       <div className="absolute top-0 right-0 w-32 h-32 bg-[#D4AF37] opacity-5 rounded-full blur-3xl"></div>
 
       <div className="relative z-10">
-        <p className="text-sm text-gray-400 mb-2">黄金实时价格</p>
+        <div className="flex items-center justify-between mb-2">
+          <p className="text-sm text-gray-400">黄金实时价格</p>
+          {price?.source_count > 0 && (
+            <span className="text-xs text-[#D4AF37] font-mono">
+              {price.source_count} 数据源
+            </span>
+          )}
+        </div>
         <div className="flex items-end gap-4">
           <span className="price-display text-white" data-testid="current-price">
             ${price?.toFixed(2) || '---'}
