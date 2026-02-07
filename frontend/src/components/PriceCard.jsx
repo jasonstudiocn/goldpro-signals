@@ -2,7 +2,7 @@ import React from 'react';
 import { TrendingUp, TrendingDown } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-const PriceCard = ({ price, change, changePercent, loading }) => {
+const PriceCard = ({ price, change, changePercent, loading, sources, sourceCount }) => {
   const isPositive = change >= 0;
 
   if (loading) {
