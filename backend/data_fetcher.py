@@ -111,24 +111,23 @@ class GoldDataFetcher:
             logger.warning(f"FXStreet爬取失败: {e}")
             return None
     
-    def fetch_from_metals_api(self) -> Optional[float]:
-        """从metals-api.com获取金价（免费层）"""
+    def fetch_from_goldprice_org_api(self) -> Optional[float]:
+        """从goldprice.org API获取金价（最可靠的数据源）"""
         try:
-            # 使用公开的金价API
             response = requests.get(
-                "https://api.metals.live/v1/spot/gold",
+                "https://data-asg.goldprice.org/dbXRates/USD",
                 headers=self.headers,
                 timeout=self.timeout
             )
             if response.status_code == 200:
                 data = response.json()
-                # API返回的是每盎司价格
-                price = float(data[0]) if isinstance(data, list) else float(data)
-                if 2000 < price < 3500:
-                    return price
+                if 'items' in data and len(data['items']) > 0:
+                    xau_price = data['items'][0].get('xauPrice')
+                    if xau_price and 2000 < xau_price < 10000:
+                        return float(xau_price)
             return None
         except Exception as e:
-            logger.warning(f"Metals-API爬取失败: {e}")
+            logger.warning(f"GoldPrice.org API爬取失败: {e}")
             return None
     
     def fetch_from_goldprice_org(self) -> Optional[float]:
