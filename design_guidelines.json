@@ -1,0 +1,130 @@
+{
+  "identity": {
+    "name": "E1",
+    "persona": "The Anti-AI Designer",
+    "mission": "Create a top 1% Gold Trading Dashboard that feels like a professional financial terminal, not a generic SaaS.",
+    "principles": [
+      "Fusion over Imitation: Mix Swiss precision with Luxury Gold aesthetics.",
+      "Emotion First: Trust, Wealth, and Alertness.",
+      "Content is King: Data is the hero. Legibility is paramount.",
+      "Zoom In: Focus on the tick-by-tick movements.",
+      "Negative Space: Use it to separate dense data clusters."
+    ]
+  },
+  "theme_strategy": {
+    "mode": "dark",
+    "archetype": "The Performance Pro (Gold Edition)",
+    "vibe": "Elite, Precision, Wealth, Institutional.",
+    "colors": {
+      "background": "#0A0A0A",
+      "foreground": "#FAFAFA",
+      "primary": "#D4AF37",
+      "primary_foreground": "#000000",
+      "secondary": "#1F1F22",
+      "accent_success": "#10B981",
+      "accent_danger": "#EF4444",
+      "accent_warning": "#F59E0B",
+      "muted": "#27272A",
+      "border": "#27272A"
+    },
+    "gradients": {
+      "gold_glow": "linear-gradient(135deg, #D4AF37 0%, #AA8C2C 100%)",
+      "dark_glass": "rgba(10, 10, 10, 0.8)"
+    }
+  },
+  "typography": {
+    "headings": {
+      "font_family": "Barlow Condensed, sans-serif",
+      "weight": "700",
+      "usage": "Page titles, Widget headers, Key metrics",
+      "import_url": "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Manrope:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    },
+    "body": {
+      "font_family": "Manrope, sans-serif",
+      "usage": "General UI text, labels, descriptions"
+    },
+    "data": {
+      "font_family": "JetBrains Mono, monospace",
+      "usage": "Prices, Tickers, Table data, Confidence scores"
+    }
+  },
+  "layout_system": {
+    "grid_mode": "Mode B: High Density Grid",
+    "container_padding": "p-4 md:p-6 lg:p-8",
+    "gap": "gap-4",
+    "border_radius": "rounded-sm",
+    "surface_style": "Grid Borders (The Technical Look)",
+    "rules": [
+      "Use 'border-collapse' style layouts for data grids.",
+      "Avoid rounded corners > 4px. Keep it sharp and professional.",
+      "Use 'h-full' on widgets to ensure perfect alignment."
+    ]
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#D4AF37] text-black hover:bg-[#B5952F] font-bold uppercase tracking-wider rounded-sm",
+      "secondary": "bg-secondary text-white hover:bg-secondary/80 border border-white/10 rounded-sm",
+      "outline": "border border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37]/10 rounded-sm"
+    },
+    "cards": {
+      "base": "bg-[#0A0A0A] border border-white/10 rounded-sm",
+      "glass": "bg-black/60 backdrop-blur-xl border border-white/10"
+    },
+    "charts": {
+      "library": "Recharts",
+      "colors": {
+        "price_line": "#D4AF37",
+        "bullish_candle": "#10B981",
+        "bearish_candle": "#EF4444",
+        "grid_lines": "#333333"
+      },
+      "tooltip": "Custom dark tooltip with gold borders"
+    },
+    "navigation": {
+      "style": "Sidebar or Topbar with 'Crystal Glass' effect if floating, or solid dark if fixed.",
+      "active_state": "border-l-2 border-[#D4AF37] bg-white/5 text-[#D4AF37]"
+    }
+  },
+  "visual_assets": {
+    "images": [
+      {
+        "category": "background_texture",
+        "url": "https://images.unsplash.com/photo-1760387252509-ecef38b4936e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMGZpbmFuY2lhbCUyMGRhdGElMjBmbG93JTIwZGFya3xlbnwwfHx8fDE3NzA0NTI4ODV8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Abstract light trails for AI Analysis section background"
+      },
+      {
+        "category": "hero_gold",
+        "url": "https://images.pexels.com/photos/8442352/pexels-photo-8442352.jpeg",
+        "description": "Gold bullion dark background for Login or Welcome screen"
+      },
+      {
+        "category": "abstract_data",
+        "url": "https://images.unsplash.com/photo-1699462515552-1777d08f9b0b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMGZpbmFuY2lhbCUyMGRhdGElMjBmbG93JTIwZGFya3xlbnwwfHx8fDE3NzA0NTI4ODV8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Wavy lines for market trend visualization background"
+      }
+    ],
+    "icons": "Lucide React (default) or Phosphor Icons (for more technical feel)"
+  },
+  "motion": {
+    "entrance": "framer-motion: opacity-0 y-4 -> opacity-100 y-0 (staggered)",
+    "hover": "scale-[1.01] border-[#D4AF37]/50 transition-all duration-200",
+    "ticker": "Use react-fast-marquee for news ticker at the top"
+  },
+  "instructions_to_main_agent": [
+    "1. INSTALL FONTS: Add the Google Fonts import to index.css immediately.",
+    "2. CONFIGURE TAILWIND: Update tailwind.config.js to use the Gold (#D4AF37) as primary and Dark (#0A0A0A) as background.",
+    "3. LAYOUT: Use the 'Bento Grid Mode B' for the main dashboard. It must feel dense but organized.",
+    "4. CHARTS: Implement the TradingView-style candlestick chart using Recharts. Use the specified colors.",
+    "5. AI SECTION: Use the 'Abstract light trails' image as a subtle background for the AI insights panel to give it a 'futuristic' feel.",
+    "6. DATA-TESTID: Add data-testid to all interactive elements (buttons, inputs, chart toggles).",
+    "7. NO GRADIENTS: Do not use gradients for backgrounds. Use solid dark colors or subtle noise textures.",
+    "8. BORDERS: Use 1px borders with low opacity (white/10) to define structure. Do not rely on shadows in dark mode."
+  ],
+  "universal_guidelines": [
+    "Avoid 'AI slop' (generic centered layouts).",
+    "Use 'sonner' for notifications (Trade Signals).",
+    "Ensure all text has sufficient contrast (APCA standards).",
+    "Do not use 'Inter' for headings. Use 'Barlow Condensed'.",
+    "Make sure the 'Buy' button is Green and 'Sell' button is Red, but 'Primary' actions (like 'Analyze') are Gold."
+  ]
+}
