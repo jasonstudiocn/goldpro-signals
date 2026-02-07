@@ -89,8 +89,9 @@ async def get_current_price():
     if not price_data:
         raise HTTPException(status_code=500, detail="无法获取实时价格")
     
-    # 保存到数据库
-    await db.price_history.insert_one(price_data)
+    # 保存到数据库（创建副本避免_id污染）
+    price_copy = price_data.copy()
+    await db.price_history.insert_one(price_copy)
     
     return price_data
 
