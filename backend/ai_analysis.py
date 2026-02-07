@@ -170,15 +170,30 @@ class AIAnalyzer:
 - 避险情绪
 - 社交媒体舆论
 
-请以JSON格式回复：{"sentiment": "BULLISH/BEARISH/NEUTRAL", "confidence": 数字, "factors": ["因素1", "因素2"]}"""
+直接返回纯JSON格式，不要包含任何其他文字或markdown标记：
+{"sentiment": "BULLISH或BEARISH或NEUTRAL", "confidence": 数字0-100, "factors": ["因素1", "因素2", "因素3"]}"""
             
             response = await chat.send_message(UserMessage(text=prompt))
             
+            # 清理响应
+            clean_response = response.strip()
+            if clean_response.startswith('```'):
+                clean_response = clean_response.split('```')[1]
+                if clean_response.startswith('json'):
+                    clean_response = clean_response[4:]
+                clean_response = clean_response.strip()
+            
             import json
             try:
-                result = json.loads(response)
+                result = json.loads(clean_response)
+                if 'sentiment' not in result or 'factors' not in result:
+                    return {
+                        'sentiment': 'NEUTRAL',
+                        'confidence': 50,
+                        'factors': ['分析结果格式不完整']
+                    }
                 return result
-            except:
+            except json.JSONDecodeError:
                 return {
                     'sentiment': 'NEUTRAL',
                     'confidence': 50,
