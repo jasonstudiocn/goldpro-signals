@@ -216,11 +216,14 @@ class GoldDataFetcher:
     def fetch_real_time_price(self) -> Optional[Dict]:
         """从多个来源获取实时黄金价格并聚合"""
         sources = [
+            ('Metals-API', self.fetch_from_metals_api),
+            ('GoldPrice.org', self.fetch_from_goldprice_org),
+            ('Investing.com', self.fetch_from_investing_com),
+            ('BullionVault', self.fetch_from_bullionvault),
             ('Kitco', self.fetch_from_kitco),
             ('XE.com', self.fetch_from_xe),
             ('TradingEconomics', self.fetch_from_tradingeconomics),
             ('FXStreet', self.fetch_from_fxstreet),
-            ('Capital.com', self.fetch_from_capital),
             ('Gold-API', self.fetch_from_goldapi),
         ]
         
