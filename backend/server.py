@@ -133,8 +133,9 @@ async def get_ai_analysis():
         'timestamp': datetime.now(timezone.utc).isoformat()
     }
     
-    # 保存到数据库
-    await db.ai_analysis.insert_one(result)
+    # 保存到数据库（创建副本避免_id污染）
+    result_copy = result.copy()
+    await db.ai_analysis.insert_one(result_copy)
     
     return result
 
