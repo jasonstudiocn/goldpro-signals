@@ -40,26 +40,43 @@ class AIAnalyzer:
 
 {news_text}
 
-请提供:
+请分析并返回：
 1. 整体情绪（BULLISH/BEARISH/NEUTRAL）
-2. 影响信心度（0-100）
+2. 影响信心度（0-100的数字）
 3. 简短总结（50字以内）
 
-请以JSON格式回复：{"sentiment": "BULLISH/BEARISH/NEUTRAL", "confidence": 数字, "summary": "总结"}"""
+直接返回纯JSON格式，不要包含任何其他文字或markdown标记：
+{"sentiment": "BULLISH或BEARISH或NEUTRAL", "confidence": 数字0-100, "summary": "总结文字"}"""
             
             response = await chat.send_message(UserMessage(text=prompt))
+            
+            # 清理响应，移除markdown代码块标记
+            clean_response = response.strip()
+            if clean_response.startswith('```'):
+                # 移除markdown代码块
+                clean_response = clean_response.split('```')[1]
+                if clean_response.startswith('json'):
+                    clean_response = clean_response[4:]
+                clean_response = clean_response.strip()
             
             # 解析响应
             import json
             try:
-                result = json.loads(response)
+                result = json.loads(clean_response)
+                # 验证必需字段
+                if 'sentiment' not in result or 'confidence' not in result or 'summary' not in result:
+                    return {
+                        'sentiment': 'NEUTRAL',
+                        'confidence': 50,
+                        'summary': '分析结果格式不完整'
+                    }
                 return result
-            except:
+            except json.JSONDecodeError:
                 # 如果无法解析JSON，返回默认值
                 return {
                     'sentiment': 'NEUTRAL',
                     'confidence': 50,
-                    'summary': response[:100] if response else '分析完成'
+                    'summary': clean_response[:100] if clean_response else '分析完成'
                 }
         
         except Exception as e:
