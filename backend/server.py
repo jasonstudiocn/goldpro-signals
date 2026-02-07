@@ -115,7 +115,9 @@ async def get_technical_analysis():
         **indicators,
         'timestamp': datetime.now(timezone.utc).isoformat()
     }
-    await db.technical_indicators.insert_one(indicators_record)
+    # 创建副本避免_id污染
+    record_copy = indicators_record.copy()
+    await db.technical_indicators.insert_one(record_copy)
     
     return indicators
 
